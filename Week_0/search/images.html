@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Search</title>
+        <title>Images</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
@@ -16,6 +16,18 @@
 
         <div class="image">
             <img src="google_logo.png" alt="Google Logo" />
+            <span id="image_logo">Images</span>
+        </div>
+
+        <div class="search-container">
+            <form action="https://google.com/search" method="get">
+                <input type="text" name="q">
+                <div class="buttons">
+                    <input hidden="true" type="submit" value="Image Search">
+                    <input hidden="true" name="tbm" value="isch">
+                    <input type="submit" name="btnI" value="I'm feeling lucky">
+                </div>
+            </form>
         </div>
 
     </body>
